@@ -6,7 +6,7 @@ const About = () =>{
     <>
         <div className="flex md:flex-row m-auto my-[28px]  md:m-[150px] gap-[50px] md:gap-[108px] text-white font-poppins">
             <img src="Sphere.svg" alt="sphere" className="hidden md:flex"/>
-            <div className="flex flex-col gap-[44px]">
+            <div className="flex flex-col gap-[44px] px-4 md:px-0">
                 <div className="flex flex-col gap-[36px]">
                     <div className="flex flex-row gap-[16px]">
                         <img src="Line1.svg" alt="" />
