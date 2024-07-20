@@ -3,14 +3,14 @@
 const Token = () => {
   return (
     <>
-        <div className="flex flex-row mt-[180px] mb-[80px] mx-[80px] justify-center items-center gap-[140px]">
-            <div className="flex flex-col text-white gap-[84px]">
-                <div className="flex flex-row gap-[55px] font-bold text-[18px]">
+        <div className="flex flex-row mt-[180px] mb-[80px] pl-6 md:pl-0 md:mx-[80px] justify-center items-center gap-[140px]">
+            <div className="flex flex-col text-white gap-[42px] md:gap-[84px]">
+                <div className="flex flex-row gap-4 md:gap-[55px] font-bold text-[18px]">
                     <span>Funding Allocation</span>
                     <span>Token Allocation</span>
                 </div>
-                <div className="flex flex-col gap-[54px]">
-                    <div className="flex font-montserrat font-semibold text-[66px] leading-[80px]">
+                <div className="flex flex-col gap-[32px] md:gap-[54px]">
+                    <div className="flex font-montserrat font-semibold text-[40px] md:text-[66px] leading-[40px] md:leading-[80px]">
                         <span>1 CNL = <span className="text-[#FEFF05]"> 0.0863 BTC</span></span>
                     </div>
                     <div>
