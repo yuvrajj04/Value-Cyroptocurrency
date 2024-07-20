@@ -2,15 +2,17 @@
 
 const BestPlans = () => {
     return (
-        <div className='flex flex-col gap-[66px] items-center'>
+        
+        <div className='relative flex flex-col gap-[66px] items-center'>
+            <img src="/Ellipse.svg" alt="" className="absolute w-[349px] h-[349px] top-[40px] "/>
             <div className="flex flex-col justify-center items-center mt-[122px]">
                 <span className=" text-center text-white font-bold text-[54.5px]">Our best plans ready<span className="text-[54.5px] !text-[#FEFF05]"> for <br /> your choice</span></span>
                 <span className="text-[#7C8794] text-[20px] text-center">The available plans are billed monthly according to the plan <br /> appropriate to your needs.</span>
             </div>
 
-            <div className="flex gap-[30px]">
+            <div className="flex gap-[30px] py-[60px] md:py-[40px] overflow-x-scroll md:overflow-hidden">
 
-                <div className="rounded-[30px] relative flex h-[576px] flex-col border border-white px-[47px] w-[370px] justify-center gap-[60px]">
+                <div className=" rounded-[30px] relative flex h-[576px] flex-col border border-white px-[47px] w-[370px] justify-center gap-[60px]">
                     <div className="flex flex-col">
                         <span className="text-left text-white text-[22px]">Basic</span>
                         <span className="text-[#FEFF05] font-semibold text-[72px]">29$</span>

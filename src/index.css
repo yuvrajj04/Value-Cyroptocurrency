@@ -49,3 +49,7 @@ background: linear-gradient(0deg, rgba(42,45,49,1) 0%, rgba(6,6,6,0.8) 100%);
   background: rgb(42,45,49,0.75);
   filter: blur(54);
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

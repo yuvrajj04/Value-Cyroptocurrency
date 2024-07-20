@@ -22,7 +22,7 @@ const Token = () => {
                     </div>
                 </div>
             </div>
-            <img src="Mobile-phone.svg" alt="" />
+            <img src="Mobile-phone.svg" alt="" className="hidden md:flex"/>
         </div>
     </>
   )

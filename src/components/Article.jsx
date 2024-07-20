@@ -22,9 +22,11 @@ const Article = () => {
                         <img src="right-arrow.svg" alt="" />
                     </div>
                 </div>
-                <div className="flex flex-row gap-[32px]">
-                    <div className="flex flex-col border-[1px] border-white rounded-3xl text-white p-[36px] gap-[34px]">
+
+                <div className="flex flex-row gap-[32px] ">
+                    <div className="relative flex flex-col border-[1px] border-white rounded-3xl text-white p-[36px] gap-[34px]">
                         <img src="Image placeholder.svg" alt="" className="w-[316px] h-auto" />
+                        <img src="/Ellipse.svg" alt="" className="absolute w-[121px] h-[121px] bottom-[-80px] left-[-40px]"/>
                         <div className="flex flex-col gap-[8px]">
                             <span className="text-[18px]">The Importance of Customer <br /> Engagement in Business Growth</span>
                             <span className="text-[10px]">By Admin - 14 Dec 2022</span>
@@ -44,6 +46,7 @@ const Article = () => {
                 </div>
                 </div>
             </div>
+            
         </div>
     </>
   )
