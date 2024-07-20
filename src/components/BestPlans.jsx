@@ -4,9 +4,9 @@ const BestPlans = () => {
     return (
         
         <div className='relative flex flex-col gap-[66px] items-center'>
-            <img src="/Ellipse.svg" alt="" className="absolute w-[349px] h-[349px] top-[40px] "/>
+            <img src="/Ellipse.svg" alt="" className="absolute w-[349px] h-[349px] top-[40px] hidden md:flex "/>
             <div className="flex flex-col justify-center items-center mt-[122px]">
-                <span className=" text-center text-white font-bold text-[54.5px]">Our best plans ready<span className="text-[54.5px] !text-[#FEFF05]"> for <br /> your choice</span></span>
+                <span className=" text-center text-white font-bold text-[42px] md:text-[54.5px]">Our best plans ready<span className=" !text-[#FEFF05]"> for <br /> your choice</span></span>
                 <span className="text-[#7C8794] text-[20px] text-center">The available plans are billed monthly according to the plan <br /> appropriate to your needs.</span>
             </div>
 
@@ -81,7 +81,7 @@ const BestPlans = () => {
 
                     <button className='absolute left-1/2 transform z-50 -translate-x-1/2 bottom-[-27px] bg-[#FEFF05] text-black text-[16px] rounded-[117px] w-[217px] h-[54px] flex gap-1 justify-center items-center'>
                         <span className="">BUY NOW</span>
-                        <img src="/rightArrowBuyNow.svg" alt="" className="w-[20px] h-[20px] mb-[-2.5px]" />
+                        <img src="/rightArrowBuyNow.svg" alt="" className="w-[20px] h-[20px] mb-0 md:mb-[-2.5px]" />
                     </button>
                 </div>
 

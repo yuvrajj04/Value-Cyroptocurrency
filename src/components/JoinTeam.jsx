@@ -11,7 +11,7 @@ const JoinTeam = () => {
                 <span className="flex font-montserrat font-bold text-[24px] md:text-[50px]">Interested to <span className="text-[#FEFF05] px-[20px]"> Join Our Team?</span></span>
                 <span className="flex text-[12px] md:text-[16px] font-poppins ">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation.</span>
             </div>
-            <button className='bg-[#FEFF05] h-[62.5px] text-black text-[12px] md:text-[18px] py-[18px] px-[56px] rounded-[135px]'>GET STARTED</button>
+            <button className='bg-[#FEFF05] h-[42px] md:h-[62.5px] text-black text-[12px] md:text-[18px] py-0 md:py-[18px] px-[56px] rounded-[135px] justify-center'>GET STARTED</button>
             <img src="/Ellipse.svg" alt="" className="absolute w-[148px] h-[148px] bottom-[-74px] right-[-74px] hidden md:flex"/>
         </div>
     </>
