@@ -18,7 +18,7 @@ const Token = () => {
                         </span>
                     </div>
                     <div>
-                        <button className="text-white border-[1px] border-[#FEFF05] rounded-full w-[255px] h-[72px] px-[72px] py-[24px]">BUY NOW</button>
+                        <button className="text-white border-[1px] border-[#FEFF05] rounded-full w-[255px] h-[72px] px-[72px] py-[24px] hover:bg-[#FEFF05] hover:text-black transition duration-300">BUY NOW</button>
                     </div>
                 </div>
             </div>

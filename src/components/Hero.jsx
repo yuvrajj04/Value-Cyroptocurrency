@@ -5,9 +5,9 @@ const Hero = () => {
         <div className='flex flex-col relative w-auto md:w-full h-auto overflow-hidden font-Poppins font-normal my-[40px] md:my-[80px]'>
 
             <div className="flex flex-col w-full z-50 items-center font-normal gap-[12px] md:gap-0 font-poppins">
-                <span className="text-white text-[18px] md:text-[36px]">THE EASIEST WAY TO</span>
-                <span className="text-stroke-white-2 text-[52px] md:text-[103px] text-black !mt-[-20px] font-black">BUY & <span className="!text-white font-black">SELL</span></span>
-                <span className="text-white text-[32px] md:text-[103px] !mt-[-40px] font-black"> CRYPTO <span className="font-black text-stroke-white-2  !text-black"> CURRENCY</span></span>
+                <span className="text-white text-[18px] md:text-[36px] fade-in">THE EASIEST WAY TO</span>
+                <span className="text-stroke-white-2 text-[52px] md:text-[103px] text-black !mt-[-20px] font-black fade-in">BUY & <span className="!text-white font-black">SELL</span></span>
+                <span className="text-white text-[32px] md:text-[103px] !mt-[-40px] font-black fade-in"> CRYPTO <span className="font-black text-stroke-white-2  !text-black"> CURRENCY</span></span>
 
                 <div className="flex gap-[18px] md:gap-[33px] w-auto md:w-full justify-center items-center">
                     <div className="flex gap-2 items-center md:gap-[22px]">

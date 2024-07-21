@@ -20,15 +20,15 @@ const Footer = () => {
                         <a className="text-[22px] font-bold mr-4">Contact Us</a>
                         <nav className="flex flex-col gap-4 md:gap-0 md:space-y-[16px] text-sm">
                             <div className="text-[16px] flex gap-[8px] items-center">
-                                <img src="/Email.svg" alt="email" className='w-[16] h-[16px]' />
+                                <img src="/Email.svg" alt="email" className='w-[16px] h-[16px]' />
                                 <a href="#About" className="hover:underline">hello@website.com</a>
                             </div>
                             <div className="text-[16px] flex gap-[8px] items-center">
-                                <img src="/Location.svg" alt="location" className='w-[16] h-[16px]' />
+                                <img src="/Location.svg" alt="location" className='w-[16px] h-[16px]' />
                                 <a href="#Services" className="hover:underline">Riverside Building, County Hall,<br/>London SE1 7PB, United Kingdom</a>
                             </div>
                             <div className="text-[16px] flex gap-[8px] items-center">
-                                <img src="/Contact.svg" alt="contact" className='w-[16] h-[16px]' />
+                                <img src="/Contact.svg" alt="contact" className='w-[16px] h-[16px]' />
                                 <a href="#Hubs" className="hover:underline">+02 5421234560</a>
                             </div>
                         </nav>
@@ -44,7 +44,7 @@ const Footer = () => {
                         />
                         <button
                         // onClick={}
-                        className='outline-none bg-[#DFDE02] text-black px-4'
+                        className='outline-none bg-[#DFDE02] text-black px-4 '
                         >Subscribe</button>
                     </div>
                     <div className="flex flex-row gap-[32px] md:gap-[16px] pb-[40px] md:pb-0">

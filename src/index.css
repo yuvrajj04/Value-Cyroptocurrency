@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  
 }
 
 code {
@@ -42,6 +43,11 @@ background: linear-gradient(0deg, rgba(42,45,49,1) 0%, rgba(6,6,6,0.8) 100%);
 
 }
 
+.border-gradient{
+  background: rgb(255, 255, 255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(6,6,6,0.8) 100%);
+}
+
 .card-shadow{
   filter: drop-shadow(0 5px 6px rgba(0, 0, 0, 0.25)) ;
 }
@@ -53,3 +59,18 @@ background: linear-gradient(0deg, rgba(42,45,49,1) 0%, rgba(6,6,6,0.8) 100%);
 ::-webkit-scrollbar {
   display: none;
 }
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+  
