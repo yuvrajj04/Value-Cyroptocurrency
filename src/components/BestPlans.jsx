@@ -1,4 +1,4 @@
-
+import './BestPlans.css';
 
 const BestPlans = () => {
     return (
@@ -10,9 +10,9 @@ const BestPlans = () => {
                 <span className="text-[#7C8794] text-[16px] md:text-[20px] text-center">The available plans are billed monthly according to the plan <br /> appropriate to your needs.</span>
             </div>
 
-            <div className="flex px-4 md:px-0 flex-nowrap max-w-full gap-[30px] py-[40px] md:py-[60px] h-[600px] md:h-auto overflow-x-scroll md:overflow-hidden">
+            <div className="flex px-4 md:px-4 flex-nowrap max-w-full gap-[30px] py-[40px] md:py-[60px] h-[600px] md:h-auto overflow-x-scroll md:overflow-hidden">
 
-                <div className="flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px]">
+                <div className="flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px] plan-card">
                     <div className="flex flex-col">
                         <span className="text-left text-white text-[16px] md:text-[22px]">Basic</span>
                         <span className="text-[#FEFF05] font-semibold text-[56px] md:text-[72px]">29$</span>
@@ -47,7 +47,7 @@ const BestPlans = () => {
                     </button>
                 </div>
 
-                <div className="flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px]">
+                <div className="flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px] plan-card">
                     <div className="golden-grad absolute left-[-2px] top-[-2px] z-30 h-[578px] w-[372px] opacity-[30%] rounded-[30px]"></div>
                     <img src='/yellowNoise.svg' className="golden-grad opacity-5 absolute left-[-2px] top-[-2px] z-40 h-[578px] w-[372px] rounded-[30px]" />
 
@@ -85,7 +85,7 @@ const BestPlans = () => {
                     </button>
                 </div>
 
-                <div className=" flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px]">
+                <div className=" flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px] plan-card">
                     <div className="flex flex-col">
                         <span className="text-left text-white text-[16px] md:text-[22px]">Enterprise</span>
                         <span className="text-[#FEFF05] font-semibold text-[56px] md:text-[72px]">279$</span>

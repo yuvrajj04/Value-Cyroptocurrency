@@ -36,7 +36,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="flex flex-nowrap gap-[64px] md:gap-[200px] w-full justify-start md:justify-center px-4 md:px-0 items-center mt-[56px] z-50 overflow-x-auto md:overflow-hidden">
+            <div className="flex flex-nowrap gap-[64px] md:gap-[200px] w-full justify-start md:justify-center px-4 md:px-0 items-center mt-[56px] z-50 overflow-x-auto md:overflow-hidden overflow-hidden">
                 <div className=" flex-shrink-0 relative items-center rounded-[16px] md:rounded-[30px] border-[0.8px] border-[white] px-[36px] w-[200px] md:w-[261px] h-[160px] md:h-[261px] flex flex-col justify-center">
                     <div className="absolute left-[-2px] w-[262.6px] h-[262.6px] black-card-fade-down rounded-[30px] z-[30]"></div>
                     <span className="text-[#DFDE02] text-[24px] md:text-[50px] font-bold z-[40]">20+</span>
