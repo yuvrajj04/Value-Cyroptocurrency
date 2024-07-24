@@ -10,7 +10,7 @@ const BestPlans = () => {
                 <span className="text-[#7C8794] text-[16px] md:text-[20px] text-center">The available plans are billed monthly according to the plan <br /> appropriate to your needs.</span>
             </div>
 
-            <div className="flex px-4 md:px-4 flex-nowrap max-w-full gap-[30px] py-[40px] md:py-[60px] h-[600px] md:h-auto overflow-x-scroll md:overflow-hidden overflow-y-hidden">
+            <div className="flex px-4 md:px-4 flex-nowrap max-w-full gap-[30px] md:gap-[62px] py-[40px] md:py-[60px] h-[600px] md:h-auto overflow-x-scroll md:overflow-hidden overflow-y-hidden">
 
                 <div className="flex-shrink-0  rounded-[30px] relative flex h-[480px] md:h-[576px] flex-col border border-white px-[24px] md:px-[47px] w-[300px] md:w-[370px] justify-center gap-[30px] md:gap-[60px] plan-card">
                     <div className="flex flex-col">

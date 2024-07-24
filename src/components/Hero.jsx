@@ -31,8 +31,8 @@ const Hero = () => {
                 <button className='bg-[#FEFF05] h-[48px] md:h-[62.5px] text-black text-[14px] md:text-[18px] py-[14px] md:py-[18px] px-[36px] md:px-[56px] rounded-[68px] md:rounded-[135px]'>GET STARTED</button>
                 {/* <div className="fade h-[42px] md:h-[62.5px] w-[62px] md:w-[75px] yellow-fade-in ml-[-18px] md:ml-[-32px]"></div> */}
                 <div className="fade h-[42px] md:h-[62.5px] w-0 group-hover:w-[62px] md:group-hover:w-[75px] yellow-fade-in ml-[-18px] md:ml-[-32px] transition-all duration-300 ease-in-out origin-left"></div>
-                <div className='rounded-full bg-[#FEFF05] w-[62px] md:w-[84px] h-[62px] md:h-[84px] flex justify-center items-center ml-[-32px]'>
-                    <img src="/rightArrow.svg" alt="check" className='w-[24px] md:w-[34.5px] h-[18px] md:h-[23px]' />
+                <div className='rounded-full bg-[#FEFF05] w-[48px] md:w-[84px] h-[48px] md:h-[84px] flex justify-center items-center ml-[-32px]'>
+                    <img src="/rightArrow.svg" alt="check" className='w-[20px] md:w-[34.5px] h-[16px] md:h-[23px] justify-center' />
                 </div>
             </div>
 

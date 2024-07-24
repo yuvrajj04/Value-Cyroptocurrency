@@ -11,7 +11,7 @@ const JoinTeam = () => {
                 <span className="md:flex text-center font-montserrat font-bold text-[24px] md:text-[50px]">Interested to<span className="text-[#FEFF05] md:px-[20px]"> Join Our Team?</span></span>
                 <span className="flex text-[12px] md:text-[16px] font-poppins ">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation.</span>
             </div>
-            <button className='bg-[#FEFF05] h-[42px] md:h-[62.5px] text-black text-[12px] md:text-[18px] py-0 md:py-[18px] px-[56px] rounded-[135px] justify-center hover:bg-black hover:border hover:border-[#FEFF05] hover:text-[#FEFF05] transition duration-300'>GET STARTED</button>
+            <button className='bg-[#FEFF05] h-[48px] md:h-[62.5px] text-black text-[14px] md:text-[18px] py-[14px] md:py-[18px] px-[36px] md:px-[56px] rounded-[68px] md:rounded-[135px] justify-center hover:bg-black hover:border hover:border-[#FEFF05] hover:text-[#FEFF05] transition duration-300'>GET STARTED</button>
             <img src="/Ellipse.svg" alt="" className="absolute w-[148px] h-[148px] bottom-[-74px] right-[-74px] hidden md:flex"/>
         </div>
     </>

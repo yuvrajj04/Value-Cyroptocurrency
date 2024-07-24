@@ -5,9 +5,9 @@ const Footer = () => {
     <>
         <footer className=" text-white md:pt-[60px]">
             
-            <div className="relative flex flex-col-reverse md:flex-row md:gap-[300px] justify-center items-start md:items-center mb-[40px] md:mb-[80px] ">
-                <div className="absolute hidden md:flex bg-white opacity-[6%] h-[340px] w-full top-[-40px]"></div>
-                <div className="flex gap-[20px] md:gap-[200px]">
+            <div className="relative flex flex-col-reverse md:flex-row md:gap-[140px] justify-center items-start md:items-center mb-[40px] md:mb-[40px] ">
+                <div className="absolute hidden md:flex bg-white opacity-[6%] h-[318px] w-full top-[-60px]"></div>
+                <div className="flex gap-[20px] md:gap-[140px] md:mx-[40px]">
                     <div className="flex flex-col w-[180px] md:w-auto md:space-y-[40px] gap-4">
                         <a className="text-[22px] font-bold md:mr-4">Quick Links</a>
                         <nav className="flex flex-col space-y-[16px] text-sm">
@@ -24,7 +24,7 @@ const Footer = () => {
                                 <img src="/Email.svg" alt="email" className='w-[16px] h-[16px]' />
                                 <a href="#About" className="hover:underline">hello@website.com</a>
                             </div>
-                            <div className="text-[16px] flex gap-[8px] items-center">
+                            <div className="text-[16px] flex gap-[8px] items-baseline">
                                 <img src="/Location.svg" alt="location" className='w-[16px] h-[16px]' />
                                 <a href="#Services" className="hover:underline">Riverside Building, County Hall,<br/>London SE1 7PB, United Kingdom</a>
                             </div>
