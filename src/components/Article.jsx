@@ -4,7 +4,7 @@ const Article = () => {
   return (
     <>
         <div className="flex flex-col text-white gap-[40px] md:gap-[140px]">
-            <div className="flex flex-row py-[16px] px-[40px] md:px-[80px] gap-[120px]  md:gap-[1080px] border-y-[1px] border-white">
+            <div className="flex flex-row py-[16px] px-[30px] md:px-[80px] gap-[160px] md:gap-[1200px] border-y-[1px] border-white">
                 <span className="text-[16px] md:text-[18px] font-poppins text-white">Content Articles</span>
                 <img src="yellowArrow.svg" alt="" />
             </div>
@@ -14,12 +14,12 @@ const Article = () => {
                         <img src="Line1.svg" alt="" />
                         <span className="text-[16.px] font-bold">ARTICLES</span>
                     </div>
-                    <div className="flex text-white px-[80px] font-montserrat font-bold text-[28px] md:text-[54px]">
+                    <div className="flex text-white px-[40px] md:px-[80px] font-montserrat font-bold text-[28px] md:text-[54px]">
                         <span>Some Interesting <br /> <span className="text-[#FEFF05]"> Articles to Read</span></span>
                     </div>
                     <div className="flex flex-row px-[80px] gap-[20px] ">
-                        <img src="left-arrow.svg" alt="" className="w-[40px] h-[40px]"/>
-                        <img src="right-arrow.svg" alt="" className="w-[40px] h-[40px]"/>
+                        <img src="left-arrow.svg" alt="" className="w-[60px] h-[60px]"/>
+                        <img src="right-arrow.svg" alt="" className="w-[60px] h-[60px]"/>
                     </div>
                 </div>
 

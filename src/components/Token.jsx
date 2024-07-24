@@ -3,7 +3,7 @@
 const Token = () => {
   return (
     <>
-        <div className="flex flex-row mt-[180px] mb-[80px] pl-6 md:pl-0 md:mx-[80px] justify-center items-center gap-[140px]">
+        <div className="flex flex-row mt-[80px] mb-[28px] md:mb-[0px] pl-6 md:pl-0 md:mx-[80px] justify-center items-center gap-[140px]">
             <div className="flex flex-col text-white gap-[42px] md:gap-[84px]">
                 <div className="flex flex-row gap-4 md:gap-[55px] font-bold text-[18px]">
                     <span>Funding Allocation</span>

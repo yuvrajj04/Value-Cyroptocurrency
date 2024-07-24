@@ -3,11 +3,12 @@
 const Footer = () => {
   return (
     <>
-        <footer className=" text-white pt-10">
+        <footer className=" text-white md:pt-[60px]">
             
-            <div className="flex flex-col-reverse md:flex-row md:space-x-[200px] justify-center items-start md:items-center mb-[40px] md:mb-[80px] ">
+            <div className="relative flex flex-col-reverse md:flex-row md:gap-[300px] justify-center items-start md:items-center mb-[40px] md:mb-[80px] ">
+                <div className="absolute hidden md:flex bg-white opacity-[6%] h-[340px] w-full top-[-40px]"></div>
                 <div className="flex gap-[20px] md:gap-[200px]">
-                    <div className="flex flex-col pl-4 w-[180px] md:w-auto md:space-y-[40px] gap-4">
+                    <div className="flex flex-col w-[180px] md:w-auto md:space-y-[40px] gap-4">
                         <a className="text-[22px] font-bold md:mr-4">Quick Links</a>
                         <nav className="flex flex-col space-y-[16px] text-sm">
                             <a href="#About" className="text-[16px] hover:underline">About</a>
@@ -16,7 +17,7 @@ const Footer = () => {
                             <a href="#Pricing Plan" className="text-[16px] hover:underline">Pricing Plan</a>
                         </nav>
                     </div>
-                    <div className="flex flex-col px-4 md:space-y-[40px] justify-between gap-4">
+                    <div className="flex flex-col md:space-y-[40px] justify-between gap-4">
                         <a className="text-[22px] font-bold mr-4">Contact Us</a>
                         <nav className="flex flex-col gap-4 md:gap-0 md:space-y-[16px] text-sm">
                             <div className="text-[16px] flex gap-[8px] items-center">
@@ -34,7 +35,7 @@ const Footer = () => {
                         </nav>
                     </div>
                 </div>
-                <div className="flex flex-col px-4 md:p-1 gap-4 md:gap-0 md:space-y-[40px] justify-center items-start md:items-center md:flex">
+                <div className="flex flex-col px-4 md:p-0 gap-4 md:gap-[40px] justify-center items-start md:items-start md:flex">
                     <a className="text-[22px] font-bold mr-4">Subscribe</a>
                     <div className="h-[48px] w-[300px] md:w-[400px] flex shadow rounded-full md:rounded-l-full p-l-[24px] overflow-hidden mb-4">
                         <input  type="text"

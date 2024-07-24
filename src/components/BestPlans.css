@@ -11,3 +11,8 @@
                 0px 10px 21px rgba(0, 0, 0, 0.1),
                 0px 0px 0px rgba(0, 0, 0, 0.1);
   }
+
+  .golden-grad{
+    background: rgb(255,254,0);
+  background: linear-gradient(0deg, rgba(255,254,0,0.3) 0%, rgba(152,150,20,1) 100%);
+  }
