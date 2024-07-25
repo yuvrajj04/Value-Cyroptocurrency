@@ -6,9 +6,9 @@ const Footer = () => {
         <footer className=" text-white md:pt-[60px]">
             
             <div className="relative flex flex-col-reverse md:flex-row md:gap-[140px] justify-center items-start md:items-center mb-[60px] md:mb-[60px] ">
-                {/* <div className="absolute hidden md:flex bg-white opacity-[6%] h-[318px] w-full top-[-60px]"></div> */}
+                <div className="absolute hidden md:flex bg-white opacity-[8%] h-screen  max-h-[337px] w-full top-[-60px] z-[-20]"></div>
                 <div className="flex gap-[20px] md:gap-[140px] md:mx-[40px] px-[16px] md:px-0 max-w-[360px] md:max-w-[1300px]">
-                    <div className="absolute hidden md:flex bg-white opacity-[6%] h-full w-full top-[-60px]"></div>
+                    
                     <div className="flex flex-col w-[180px] md:w-auto md:space-y-[40px] gap-4">
                         <a className="text-[22px] font-bold md:mr-4">Quick Links</a>
                         <nav className="flex flex-col space-y-[16px] text-sm">
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>                    
                 </div>
             </div>
-            <div className="flex border-t-[1px] border-white text-[12px] py-[14px] justify-center items-center ">Ⓒ 2023 All rights reserved. This is Your Company</div>
+            <div className="flex border-t-[1px] bg-black border-white text-[12px] py-[14px] justify-center items-center ">Ⓒ 2023 All rights reserved. This is Your Company</div>
         </footer>
     </>
   );
