@@ -5,8 +5,10 @@ const Article = () => {
     <>
         <div className="flex flex-col text-white gap-[40px] md:gap-[140px]">
             <div className="flex flex-row py-[16px] px-[30px] md:px-[80px] gap-[140px] md:gap-[1200px] border-y-[1px] border-white">
-                <span className="text-[16px] md:text-[18px] font-poppins text-white">Content Articles</span>
-                <img src="yellowArrow.svg" alt="" />
+                <div className="flex w-full justify-between">
+                    <span className="text-[16px] md:text-[18px] font-poppins text-white">Content Articles</span>
+                    <img src="yellowArrow.svg" alt="" className="" />
+                </div>
             </div>
             <div className="flex flex-col md:flex-row px-[0px] md:px-[150px] gap-[48px] md:gap-[48px] md:justify-center items-center">
                 <div className="flex flex-col gap-[30px]">
