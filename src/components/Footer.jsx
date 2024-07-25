@@ -7,7 +7,7 @@ const Footer = () => {
             
             <div className="relative flex flex-col-reverse md:flex-row md:gap-[140px] justify-center items-start md:items-center mb-[60px] md:mb-[60px] ">
                 <div className="absolute hidden md:flex bg-white opacity-[6%] h-[318px] w-full top-[-60px]"></div>
-                <div className="flex gap-[20px] md:gap-[140px] md:mx-[40px] px-[16px] md:px-0 max-w-[360px] md:max-w-auto">
+                <div className="flex gap-[20px] md:gap-[140px] md:mx-[40px] px-[16px] md:px-0 max-w-[360px] md:max-w-[1300px]">
                     <div className="flex flex-col w-[180px] md:w-auto md:space-y-[40px] gap-4">
                         <a className="text-[22px] font-bold md:mr-4">Quick Links</a>
                         <nav className="flex flex-col space-y-[16px] text-sm">
