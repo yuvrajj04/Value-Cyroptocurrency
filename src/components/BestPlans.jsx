@@ -3,7 +3,7 @@ import './BestPlans.css';
 const BestPlans = () => {
     return (
         
-        <div className='relative flex flex-col gap-[32px] md:gap-[66px] items-center md:pt-[32px]'>
+        <div className='relative flex flex-col gap-[32px] md:gap-[66px] items-center md:pt-[80px]'>
             <img src="/Ellipse.svg" alt="" className="absolute w-[349px] h-[349px] top-[80px] hidden md:flex z-[-20]"/>
             <div className="flex flex-col justify-center items-center mt-[122px] px-8 md:px-0 gap-[8px] md:gap-0">
                 <span className=" text-center text-white font-bold text-[32px] md:text-[54.5px] leading-[40px] md:leading-[80px]">Our best plans ready<span className=" !text-[#FEFF05]"> for <br /> your choice</span></span>
