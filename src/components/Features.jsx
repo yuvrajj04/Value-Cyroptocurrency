@@ -9,32 +9,32 @@ const Features = () => {
         <span className="flex text-[24px] md:text-[60px] justify-center font-semibold font-montserrat">Why choose our bigtech</span>
         <span className="flex text-[24px] md:text-[60px] justify-center font-semibold font-montserrat text-[#FEFF05] mb-[32px] md:mb-[58px]"> Token</span>
         <div className="flex flex-row px-[20px] md:px-[150px] gap-[24px] md:gap-[32px] md:justify-center overflow-x-scroll md:overflow-x-hidden">
-            <div className="flex flex-col border-[1px] rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[40px]">
+            <div className="flex flex-col border-[3px] border-[#242424] border-t-0 rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[60px]">
                 <div className='flex flex-col gap-[24px] md:gap-[24px] w-[200px]'>
                   <img src="/paymentBag.svg" alt="" className='w-[80px] h-[80px]'/>
                   <span className='text-[24px] font-medium'>Mobile payment <br /> make easy</span>
-                  <span className='text-[16px] font-normal'>Add new, trending and rare <br /> artwork to your collection.</span>
+                  <span className='text-[16px] font-normal'>Add new, trending and rare artwork to your collection.</span>
                 </div>
             </div>
-            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[1px] rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[40px]">
+            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[3px] border-[#242424] border-t-0 rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[60px]">
                 <div className='flex flex-col gap-[24px] md:gap-[24px] w-[200px]'>
                   <img src="/freeBag.svg" alt="" className='w-[80px] h-[80px]'/>
                   <span className='text-[24px] font-medium'>Lifetime free <br /> transaction </span>
-                  <span className='text-[16px] font-normal'>Add new, trending and rare <br /> artwork to your collection.</span>
+                  <span className='text-[16px] font-normal'>Add new, trending and rare  artwork to your collection.</span>
                 </div>
             </div>
-            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[1px] rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[40px]">
+            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[3px] border-[#242424] border-t-0 rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[60px]">
               <div className='flex flex-col gap-[24px] md:gap-[24px] w-[200px]'>
                 <img src="/chartBag.svg" alt="" className='w-[80px] h-[80px]'/>
                 <span className='text-[24px] font-medium'>Protect the <br /> identity </span>
-                <span className='text-[16px] font-normal'>Add new, trending and rare <br /> artwork to your collection.</span>
+                <span className='text-[16px] font-normal'>Add new, trending and rare  artwork to your collection.</span>
               </div>
             </div>
-            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[1px] rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[40px]">
+            <div className="flex flex-col gap-[24px] md:gap-[24px] border-[3px] border-[#242424] border-t-0 rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[60px]">
                 <div className='flex flex-col gap-[24px] md:gap-[24px] w-[200px]'>
                   <img src="/securityBag.svg" alt="" className='w-[80px] h-[80px]'/>
                   <span className='text-[24px] font-medium'>Sercurity & control <br /> over money </span>
-                  <span className='text-[16px] font-normal'>Add new, trending and rare <br /> artwork to your collection.</span>
+                  <span className='text-[16px] font-normal'>Add new, trending and rare  artwork to your collection.</span>
                 </div>
             </div>
         </div>

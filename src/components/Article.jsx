@@ -3,7 +3,7 @@
 const Article = () => {
   return (
     <>
-        <div className="flex flex-col text-white gap-[40px] md:gap-[140px]">
+        <div className="flex flex-col text-white gap-[40px] md:gap-[76px]">
             <div className="flex flex-row py-[16px] px-[30px] md:px-[80px] gap-[140px] md:gap-[1200px] border-y-[1px] border-white">
                 <div className="flex w-full justify-between">
                     <span className="text-[16px] md:text-[18px] font-poppins text-white">Content Articles</span>
