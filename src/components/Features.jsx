@@ -8,7 +8,7 @@ const Features = () => {
         <span className='flex text-[12px] md:text-[20px] font-bold justify-center mt-[32px] md:mt-[96px]'>WHY CHOOSE US</span>
         <span className="flex text-[24px] md:text-[60px] justify-center font-semibold font-montserrat">Why choose our bigtech</span>
         <span className="flex text-[24px] md:text-[60px] justify-center font-semibold font-montserrat text-[#FEFF05] mb-[32px] md:mb-[58px]"> Token</span>
-        <div className="flex flex-row px-[20px] md:px-[150px] gap-[24px] md:gap-[32px] md:justify-center overflow-x-scroll md:overflow-x-hidden">
+        <div className="flex flex-row px-[20px] md:py-[20px] md:px-[150px] gap-[24px] md:gap-[32px] md:justify-center overflow-x-scroll md:overflow-x-hidden">
             <div className="flex flex-col border-[3px] border-[#242424] border-t-0 rounded-[16px] border-gradient-reverse shadow-bg backdrop-blur-2xl py-[48px] md:py-[60px] px-[48px] md:px-[60px]">
                 <div className='flex flex-col gap-[24px] md:gap-[24px] w-[200px]'>
                   <img src="/paymentBag.svg" alt="" className='w-[80px] h-[80px]'/>
